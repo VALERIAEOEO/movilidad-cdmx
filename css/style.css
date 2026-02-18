@@ -10,8 +10,35 @@ body
 
 h1 {
   font-family: "Playfair", serif;
+  font-size: 6rem;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: italic;
   font-variation-settings: "wdth" 100;
+}
+
+h2{
+ font-family: "Lexend Giga", sans-serif;
+ font-size: 2rem;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h3{
+ font-family: "Lexend Giga", sans-serif;
+ font-size: 1.5rem;
+  font-optical-sizing: auto;
+  line-height: 1rem;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h4{
+ font-family: "Playfair", serif;
+ font-size: 1.5rem;
+  font-optical-sizing: auto;
+  line-height: 1.5rem;
+  font-weight: 200;
+  font-style: normal;
 }
