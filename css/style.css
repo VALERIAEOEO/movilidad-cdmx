@@ -10,7 +10,14 @@ body
 }
 
 h1 {
-    font-family: "Playfair Display", serif;
-    font-variation-settings: "SLNT" 0; 'wght' 400;
-    font-size: 180px;
+  // <uniquifier>: Use a unique and descriptive class name
+
+.playfair-<uniquifier> {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
 }
