@@ -2,7 +2,6 @@ html {
     font-size: 100%
 }
 
-
 body
 {
     background-color:black;
@@ -10,14 +9,9 @@ body
 }
 
 h1 {
-  // <uniquifier>: Use a unique and descriptive class name
-
-.playfair-<uniquifier> {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: italic;
-  font-variation-settings:
-    "wdth" 100;
-}
+  font-variation-settings: "wdth" 100;
 }
