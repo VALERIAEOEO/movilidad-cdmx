@@ -1,7 +1,7 @@
 :root {
   --text-color: black;
   --bg-color: white;
-  --accent-color: #bfcc09;
+  --accent-color: #006e2e;
   --title-font: "Playfair", serif;
   --text-font: "Lexend Giga", sans-serif;
 }
@@ -19,7 +19,8 @@ main {
   width: 100%;
   max-width: 960px;
   padding: 0.2rem;
-  border: 2px solid var(--accent-color);
+  border: 3px groove var(--accent-color);
+  box-shadow: 0px 0px 0px var(--accent-color);
   margin: 0 auto;
 }
 
@@ -45,10 +46,12 @@ a:hover {
 h1 {
   font-family: "Playfair", serif;
   font-size: 6rem;
+  font-style: 
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: italic;
   font-variation-settings: "wdth" 100;
+  text-shadow:0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);}
 }
 
 h2{
