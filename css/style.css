@@ -15,6 +15,33 @@ body
     color: white;
 }
 
+main {
+  width: 100%;
+  max-width: 960px;
+  padding: 0.2rem;
+  border: 2px solid var(--accent-color);
+  margin: 0 auto;
+}
+
+a {
+  font-size:1.2rem;
+  color: var(--bg-color);
+  font-family: var(--title-font);
+  text-decoration: none;
+  font-style: normal;
+   font-variation-settings:
+    "wdth" 87.5;
+    font-weight: 400;
+}
+
+a:hover {
+  color: var(--accent-color);
+  font-variation-settings:
+    "wdth" 87.5;
+    font-style: italic;
+    font-weight: 900;
+}
+
 h1 {
   font-family: "Playfair", serif;
   font-size: 6rem;
@@ -46,6 +73,17 @@ h4{
  font-size: 1.5rem;
   font-optical-sizing: auto;
   line-height: 1.5rem;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p{
+  box-sizing: border-box;
+  width: 50%;
+  font-family: "Playfair", serif;
+ font-size: 1.3rem;
+  font-optical-sizing: auto;
+  line-height: 2rem;
   font-weight: 200;
   font-style: normal;
 }
